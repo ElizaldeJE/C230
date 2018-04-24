@@ -1,0 +1,27 @@
+{
+  "name": "c230",
+  "version": "1.0.0",
+  "description": "This is a tech challenge for C230.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizaldeJE/C230.git"
+  },
+  "keywords": [
+    "Tech",
+    "Challenge",
+    "C230",
+    "Consultores",
+    "Fundacion",
+    "IDEA"
+  ],
+  "author": "Javier Elizalde Solis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizaldeJE/C230/issues"
+  },
+  "homepage": "https://github.com/ElizaldeJE/C230#readme"
+}
