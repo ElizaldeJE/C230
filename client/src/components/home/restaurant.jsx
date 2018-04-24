@@ -19,7 +19,7 @@ export default class RestaurantList extends React.Component {
     }
 
     render() {
-      return (
+      return ( 
         <ul>
           { this.state.people.map(person => <li>{person.name}</li>)}
         </ul>
