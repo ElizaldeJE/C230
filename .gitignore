@@ -1,0 +1,4 @@
+//Ignores the node modules so they aren't uploaded to GitHub
+node_modules
+
+//Ignores the Bundle.js file so it's not uploaded to GitHub
