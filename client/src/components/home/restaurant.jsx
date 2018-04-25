@@ -7,7 +7,10 @@ export default class RestaurantList extends React.Component {
 
     this.state = {
       people: [],
-      name: ""
+      name: "",
+      contact: {},
+      address: {},
+      rating: 0
     };
 };
     componentDidMount() {
@@ -19,9 +22,9 @@ export default class RestaurantList extends React.Component {
     }
 
     render() {
-      return ( 
+      return (
         <ul>
-          { this.state.people.map(person => <li>{person.name}</li>)}
+          { this.state.people.map(person => <li><p>{person.name + " " + person.contact.site + " " + person.contact.email + " " + person.contact.phone + " " + person.address.street + ", " + person.address.city + ", " + person.address.state + " " + person.address.location.lat + " " + person.address.location.lng + " " + " The Rating: " + person.rating}</p></li>)}
         </ul>
       )
     }
