@@ -11,7 +11,7 @@ export default class RestaurantList extends React.Component {
       contact: {},
       address: {},
       rating: 0
-    };
+    }; 
 };
     componentDidMount() {
       axios.get(`https://s3-us-west-2.amazonaws.com/lgoveabucket/data_melp.json`)
